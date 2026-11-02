@@ -16,3 +16,7 @@
 
 .brand{gap:10px}.brand-logo{width:54px;height:48px;padding:1px;border-radius:3px}.brand-name{color:var(--orange);font:800 12px/1.35 Manrope,sans-serif;letter-spacing:.045em;white-space:nowrap}
 @media(max-width:680px){.brand-logo{width:48px;height:44px}.brand-name{font-size:10px}.topline .wrap>span{display:block;font-size:9px}}
+/* Give the business identity more presence in the site header. */
+.navbar .brand-logo{width:72px;height:62px}
+.navbar .brand-name{font-size:16px;line-height:1.28;letter-spacing:.055em}
+@media(max-width:680px){.navbar .brand-logo{width:60px;height:54px}.navbar .brand-name{font-size:12px}}
