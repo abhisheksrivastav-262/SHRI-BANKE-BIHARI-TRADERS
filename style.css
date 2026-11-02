@@ -10,3 +10,6 @@
 
 .top-contact{display:flex;align-items:center;gap:16px}.top-contact a{white-space:nowrap}
 @media(max-width:680px){.topline .wrap{justify-content:center}.topline .wrap>span{display:none}.top-contact{font-size:10px;gap:20px}}
+
+.brand-logo{display:block;width:150px;height:74px;object-fit:contain;background:#fff;border-radius:4px;padding:3px}.brand{flex:none}
+@media(max-width:680px){.brand-logo{width:124px;height:62px}}
